@@ -1,0 +1,100 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top:0;
+    padding: 0;
+    text-decoration: none;
+}
+#contain{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+    #id1{
+       background-color: black;
+       width: 350px;
+       flex:2;
+       padding: 3%;
+    }
+    #id2{
+       
+        flex:1;
+        padding: 3%;
+    }
+    #id3{
+        
+        flex:1;
+        padding: 3%;
+    }
+    #id4{
+        flex:1;
+        padding: 3%;
+    }
+    
+
+    .demo{
+        width: 145px;
+    }
+    ul{
+        margin: 0% 25% 0% -5%;
+        padding: 12px;
+        text-decoration-skip: none;
+
+    }
+    hr{
+        border: 2%;
+        background-color: aqua;
+    }
+    ul li {
+        text-align: left;
+        margin: 0px;
+        padding: 2%;
+        text-decoration: none;
+        list-style: none;
+    }
+    .logo{
+        margin-top:10px;
+    }
+    #hell{
+   align-items: right;
+   margin-left: 50%;
+    }
+    .contact{
+       display: flex;
+   }
+    @media only screen and (max-width: 915px) {
+        body {
+          background-color: lightblue;
+          
+        }
+        #contain{
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+        }
+        #id1{
+            width: 75%;
+        }
+        .contact{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #hell{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0%;
+            padding: 4%;
+          }
+      }
